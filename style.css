@@ -40,10 +40,10 @@ body{
     background-color:#E55473;
     border: none;
     padding: 20px 40px;
+    border-radius: 5px;
 }
 section{
     background-color: #fff;
-    margin: 180px 240px 0px;
 }
 .featured-title{
     color:#272727;
@@ -118,6 +118,9 @@ section{
 .sign-up > div{
     display: flex;
     align-items: center;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
 }
 .sign-up-title{
     font-size: 40px;
@@ -136,6 +139,7 @@ section{
 }
 .sign-up{
     background-color: rgba(229, 84, 115, 0.05);
+    width: 100%;
 }
 
 .inside-signup{
@@ -174,10 +178,54 @@ margin-bottom: 24px;
     color:rgba(39, 39, 39, 0.60);
     margin-bottom:50px;
 }
-.popup-content{
+.second-last{
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px; 
+    margin-left: 120px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    
+}
+.form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+}
+.footer{
+    background-color: #111010;
+    color: white;
+    padding: 100px;
     text-align: center;
 }
-.main-popup{
-    background-image: url("f")
+.color{
+    color:#E55473;
 }
-
+.font-size{
+    font-size: smaller;
+}
+.bonus{
+    background-image: url(gorgeous-arrangement-flowers-wallpaper.jpg);
+    background-size: cover;
+    padding: 50px;
+    width: 1350px;
+    height: 449px; 
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+.bonus-title{
+    text-align: center;
+    color: #E55473;
+    
+}
